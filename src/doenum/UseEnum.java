@@ -1,6 +1,6 @@
 package doenum;
 
-import basic.doenum.Level;
+
 
 public class UseEnum {
 
