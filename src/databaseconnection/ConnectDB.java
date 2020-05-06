@@ -218,14 +218,15 @@ public class ConnectDB {
     public static void main(String[] args) throws Exception {
         ConnectDB connectDB=new ConnectDB();
         // connect with MySQL Database
-        connectToSqlDatabase();
+        //connectToSqlDatabase();
 
-  connectDB.readDataBase("movie","title");
-//
+        connectDB.readDataBase("movie","title");
+
 //        List<User> list = readUserProfileFromSqlTable();
 //        for (User user : list) {
 //            System.out.println(user.getStName() + " " + user.getStID() + " " + user.getStDOB());
 //        }
+//
 
 
 
