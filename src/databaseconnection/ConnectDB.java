@@ -174,7 +174,6 @@ public class ConnectDB {
             ps.setInt(2, 3590);
             ps.executeUpdate();
 
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (SQLException e) {
@@ -222,11 +221,11 @@ public class ConnectDB {
 
         connectDB.readDataBase("movie","title");
 
-//        List<User> list = readUserProfileFromSqlTable();
-//        for (User user : list) {
-//            System.out.println(user.getStName() + " " + user.getStID() + " " + user.getStDOB());
-//        }
-//
+        List<User> list = readUserProfileFromSqlTable();
+        for (User user : list) {
+            System.out.println(user.getStName() + " " + user.getStID() + " " + user.getStDOB());
+        }
+
 
 
 
